@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "nombre": "Placha de Cerdo",
+      "descripcion": "Un delicioso plato tradicional con ingredientes frescos.",
+      "imagen": "/uno.jpeg",
+      "precio": 10.99
+    },
+    {
+      "id": 2,
+      "nombre": "Placha de Cerdo",
+      "descripcion": "Un delicioso plato tradicional con ingredientes frescos.",
+      "imagen": "/dos.jpeg",
+      "precio": 10.99
+    },
+    {
+      "id": 3,
+      "nombre": "Placha de Cerdo",
+      "descripcion": "Un delicioso plato tradicional con ingredientes frescos.",
+      "imagen": "/tres.jpeg",
+      "precio": 10.99
+    }
+  ]
+  
