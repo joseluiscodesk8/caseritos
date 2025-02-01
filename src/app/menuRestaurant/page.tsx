@@ -14,7 +14,7 @@ const menuRestaurant: NextPage = () => {
     <>
       <header className="encabezado">
         <h1>MARTES</h1>
-        <Image className={styles.logo} src={"/logo.jpeg"}  width={450} height={300} alt="logo"/>
+        <Image className={styles.logo} src={"/logo.png"}  width={450} height={300} alt="logo" />
       </header>
       <DynamicMenuList />
       <Link href={"/"}>Home</Link>
