@@ -8,7 +8,7 @@ import Image from "next/image";
 import styles from "../styles/index.module.scss";
 
 const DynamicMenuList = dynamic(() => import("./components/MenuList"));
-
+const DynamicForm = dynamic(() => import('./components/OrderForm'));
 const menuRestaurant: NextPage = () => {
   return (
     <>
@@ -17,6 +17,7 @@ const menuRestaurant: NextPage = () => {
         <Image className={styles.logo} src={"/logo.jpeg"}  width={450} height={300} alt="logo" />
       </header>
       <DynamicMenuList />
+      <DynamicForm />
       <Link href={"/"}>Home</Link>
     </>
   );
